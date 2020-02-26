@@ -1,0 +1,115 @@
+body {
+	font-family: myriad-pro, sans-serif;
+}
+
+h1 {
+	font-family: rockwell, sans-serif;
+}
+
+a {
+	font-family: myriad-pro, sans-serif;
+}
+
+h2 {
+	font-family: rockwell, sans-serif;
+	text-shadow: 0px -1px #FFE4BD;
+	color: #B39260;
+}
+
+
+header {
+	background-color: #469DDB;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #A3D9FF;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 4rem;
+}
+
+header img {
+	width: 40%;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	height: 4rem;
+}
+
+main h1 {
+	top: 150px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	color: white;
+	font-size: 4rem;
+	text-shadow: 1px -1px 5px gray;
+	position: absolute;
+}
+
+main img {
+	position: relative;
+	z-index: -1;
+	width: 100%
+	margin-bottom: 7rem;
+}
+
+.info {
+	margin-bottom: 15rem;
+}
+
+.info img {
+	margin-top: 4rem;
+}
+
+.businessdiscription {
+	margin-top: 1rem;
+}
+
+.location {
+	padding: 2rem;
+	margin-bottom: 1rem;
+	padding-top: 6rem;
+}
+
+
+
+.location .grid-x {
+	margin-bottom: 2rem;
+}
+
+.footer {
+	background-color: #469DDB;
+	padding: 1rem 0rem .5rem 1rem;
+	color: white;
+	position: relative;
+	z-index: 2;
+}
+
+.footer img {
+	width: 25%;
+}
+
+.footer b {
+	color: #FFE4BD;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	padding: .5rem 1rem .5rem 1rem;
+	background-color: #469DDB;
+	border-top-style: solid;
+	border-width: 2px;
+	border-color: #A3D9FF;
+	height: 5rem;
+}
+
+footer img {
+	width: 50%;
+	padding: .25rem;
+	height: 5rem;
+	padding-bottom: 1rem;
+}
